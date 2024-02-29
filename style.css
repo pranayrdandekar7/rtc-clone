@@ -1,0 +1,544 @@
+body {
+    background-color: #f1f5f9;
+    padding: 0;
+    margin: 0;
+}
+
+.notification-card {
+
+    background-color: #ffebcd;
+    height: 50px;
+    text-align: center;
+    padding: 5px;
+
+}
+
+.head-notification-cousre {
+    font-size: 30px;
+}
+
+.tel-icon {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar {
+
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+    background-color: white;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.nav-namelogo-container {
+    display: flex;
+    align-items: center;
+}
+
+.brand-logo {
+    height: 35px;
+    margin-left: 80px;
+
+}
+
+.nav-brand-name {
+    font-size: 20px;
+    margin: 10px;
+    color: #757575;
+
+}
+
+.nav-placeholder {
+    font-size: 22px;
+    border: 1px solid #757575;
+    padding: 5px;
+    color: #757575;
+}
+
+.nav-menu {
+    color: #757575;
+
+    margin-left: 50px;
+    display: flex;
+    width: 350px;
+    
+
+    font-size: 18px;
+    align-items: center;
+
+
+}
+
+.nav-menu-item {
+
+    margin: 10px;
+
+}
+
+.nav-menu2 {
+    height: 50px;
+    width: 320px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    color: #757575;
+    
+    align-items: center;
+
+}
+
+.nav-menu-item2 {
+    margin: 15px;
+    font-size: 18px;
+    border: none;
+    color: #757575;
+}
+
+.signup-pic {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+
+}
+
+.signup-name {
+    font-size: 18px;
+    margin: 10px;
+    color: black;
+}
+
+/* header section */
+
+.header {
+
+    height: 500px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.header-img {
+    height: 400px;
+    width: 400px;
+    filter: drop-shadow(0 0 10px #4783e2);
+    
+}
+
+.header-img-2 {
+    height: 500px;
+    width: 500px;
+   
+    
+}
+
+.header-heading1 {
+    font-size: 40px;
+}
+
+.header-heading2 {
+    font-size: 25px;
+    color: #757575;
+}
+
+.header-btn {
+    background-color: #212529;
+    color: white;
+    border-radius: 10px;
+    padding: 8px;
+    font-size: 15px;
+    margin: 15px;
+}
+
+/* header section 2 */
+.header-2-des1 {
+    font-size: 30px;
+    color: #4387f4;
+    margin-left: 60px;
+}
+
+.header-2-des2 {
+    font-size: 30px;
+
+    margin-left: 60px;
+    
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 750px;
+    
+
+}
+
+.card-icon {
+    height: 40px;
+    margin: 5px;
+    border: 1px solid #fbbd04;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #f8f2f2;
+}
+
+.card {
+    width: 350px;
+    height: 120px;
+    background-color: white;
+    border: 1px solid gray;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+.card-desc {
+    font-size: 25px;
+    margin: 5px;
+}
+
+.header-2-img {
+    height: 400px;
+    filter: drop-shadow(0px 0px 20px #e9bb25);
+}
+
+.header-2-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+
+
+}
+
+/* media query */
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+
+    .card-container {
+        width: 620px;
+        margin-left: 20px;
+
+    }
+
+    .card-icon {
+        height: 35px;
+
+    }
+
+    .card {
+        width: 280px;
+
+
+    }
+
+    .header-2-img {
+        height: 280px;
+      
+
+    }
+    .card-container{
+        justify-content: space-evenly;
+        
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+
+    .nav-placeholder {
+        display: none;
+    }
+
+    .nav-menu {
+        display: none;
+
+    }
+
+    .nav-menu-item {
+
+        display: none;
+
+    }
+
+    .nav-menu2 {
+        display: none;
+    }
+
+    .nav-menu-item2 {
+        display: none;
+    }
+
+    .signup-pic {
+        display: none;
+
+    }
+
+    .header-img {
+        height: 300px;
+        width: 300px;
+        margin-bottom: 150px;
+
+    }
+
+    .header-img-2 {
+
+        /* width: 380px; */
+    }
+
+    .header-heading1 {
+        font-size: 37px;
+
+    }
+
+    .header-heading2 {
+        font-size: 22px;
+        text-align: justify;
+    }
+
+    .header-2-des1 {
+        font-size: 27px;
+        color: #4387f4;
+        margin-left: 140px;
+    }
+
+    .header-2-des2 {
+        font-size: 27px;
+        margin-left: 140px;
+    }
+
+    .card-container {
+        margin-left: 30px;
+        width: 420px;
+
+    }
+
+    .card {
+        width: 420px;
+        height: 100px;
+
+        margin: 10px;
+
+    }
+
+    .header-2-img {
+        height: 220px;
+        margin-top: 80px;
+    }
+
+}
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    .nav-placeholder {
+        display: none;
+    }
+
+    .nav-menu {
+        display: none;
+
+    }
+
+    .nav-menu-item {
+
+        display: none;
+
+    }
+
+    .nav-menu2 {
+        display: none;
+    }
+
+    .nav-menu-item2 {
+        display: none;
+    }
+
+    .signup-pic {
+        display: none;
+
+    }
+    .header {
+        flex-direction: column;
+    }
+    
+    .header-img {
+        height: 370px;
+        width: 370px;
+       margin-top: 260px;
+
+
+    }
+
+    .header-img-2 {
+
+        width: 600px;
+     
+        margin-left: 50px;
+    }
+
+    .header-heading1 {
+        font-size: 37px;
+
+    }
+
+    .header-heading2 {
+        font-size: 22px;
+       
+    }
+    
+    .header-btn {
+        margin-left: 70px;
+    }
+    .header-2-des1 {
+        font-size: 22px;
+        
+        margin-top: 250px;
+    }
+    
+    .header-2-des2 {
+        font-size: 22px;
+    
+    }
+    
+    
+.card-container {
+    flex-direction: column;
+    
+}
+
+.card{
+    width: 480px;
+    height: 100px;
+}
+
+.header-2-container {
+   
+    flex-direction: column;
+    margin-left: 40px;
+
+}
+.header-2-img{
+    height: 500px;
+  
+}
+.card-icon {
+    height: 35px;
+    margin: 8px;
+}
+}
+   @media screen and (max-width: 599px){
+
+    .nav-placeholder {
+        display: none;
+        
+    }
+
+    .nav-menu {
+        display: none;
+
+    }
+
+    .nav-menu-item {
+
+        display: none;
+
+    }
+
+    .nav-menu2 {
+        display: none;
+    }
+
+    .nav-menu-item2 {
+        display: none;
+    }
+
+    .signup-pic {
+        display: none;
+
+    }
+    
+    .header {
+        flex-direction: column;
+    }
+    
+    .header-img {
+        height: 350px;
+        width: 350px;
+        
+       margin-top: 210px;
+
+
+    }
+
+    .header-img-2 {
+       
+        width: 600px;
+       
+        
+     
+        margin-left: 100px;
+    }
+    .header-heading1 {
+        font-size: 34px;
+
+    }
+
+    .header-heading2 {
+        font-size: 21px;
+       
+    }
+    
+    .header-btn {
+        margin-left: 70px;
+    }
+
+    .header-2-des1 {
+        font-size: 24px;
+        
+        margin-top: 250px;
+    }
+    
+    .header-2-des2 {
+        font-size: 24px;
+    
+    }
+    
+       
+.card-container {
+    flex-direction: column;
+    
+    width: 320px;
+    
+}
+
+.card{
+   
+    height: 110px;
+    
+    
+}
+
+.header-2-container {
+   
+    flex-direction: column;
+    margin-left: 40px;
+
+}
+.header-2-img{
+    height: 400px;
+    margin: 10px;
+
+
+    
+}
+.card-icon {
+    height: 35px;
+    margin: 8px;
+}
+
+
+   }
